@@ -1,0 +1,34 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AWS credentials
+.aws/
+credentials
+
+# VS Code local settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# Temporary files and logs
+*.log
+*.tmp
+
+# Personal project planning document
+AWS_Snowflake_Hands_On_Steps.docx
