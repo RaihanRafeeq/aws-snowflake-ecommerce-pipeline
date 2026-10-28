@@ -1,34 +1,49 @@
-# Python virtual environment
+
+# Python
+__pycache__/
+*.py[cod]
 .venv/
 venv/
-
-# Python cache files
-__pycache__/
-*.pyc
-
-# Environment variables and secrets
 .env
 .env.*
 !.env.example
 
-# AWS credentials
-.aws/
-credentials
-
-# VS Code local settings
+# IDE files
 .vscode/
+.vs/
+.idea/
 
-# Operating system files
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Credentials and secrets
+*.pem
+*.key
+credentials.json
+secrets.json
 
 # Generated datasets
 data/raw/*.csv
 data/processed/*.csv
 
-# Temporary files and logs
-*.log
-*.tmp
+# Local caches
+.cache/
+.pytest_cache/
 
-# Personal project planning document
-AWS_Snowflake_Hands_On_Steps.docx
+# Temporary pipeline test files
+/*_batch_*.csv
+/*_e2e_*.csv
+/*_invalid_test_*.csv
+
+# Local project notes
+/AWS_Snowflake_Hands_On_Steps.docx
